@@ -1,0 +1,34 @@
+{
+    "name": "Tether USD (Solana)",
+    "symbol": "USDT",
+    "description": "Tether USD Solana is a stablecoin that is pegged to the US dollar.",
+    "image": "https://arweave.net/256x256.png",
+    "external_url": "https://foundapay.io",
+    "attributes": [
+        {
+            "trait_type": "Utility",
+            "value": "Stablecoin"
+        },
+        {
+            "trait_type": "Tax",
+            "value": "0%"
+        },
+        {
+            "trait_type": "Chain",
+            "value": "Solana"
+        }
+    ],
+    "properties": {
+        "files": [
+            {
+                "uri": "https://arweave.net/256x256.png",
+                "type": "image/png"
+            }
+        ],
+        "category": "image",
+        "links": {
+            "twitter": "https://twitter.com/tether",
+            "telegram": "https://t.me/tether"
+        }
+    }
+}

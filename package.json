@@ -1,0 +1,36 @@
+{
+  "name": "app-solana-usdt",
+  "version": "1.0.0",
+  "description": "Create a full professional token on Solana with metadata and minting",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node dist/index.js",
+    "build": "tsc"
+  },
+  "keywords": [
+    "solana",
+    "usdt",
+    "token",
+    "metadata",
+    "minting"
+  ],
+  "author": "tetherusdtsol@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "@irys/sdk": "^0.2.11",
+    "@metaplex-foundation/js": "^0.20.1",
+    "@metaplex-foundation/mpl-token-metadata": "^3.4.0",
+    "@metaplex-foundation/umi": "^1.4.1",
+    "@metaplex-foundation/umi-bundle-defaults": "^1.4.1",
+    "@solana/spl-token": "^0.4.14",
+    "@solana/web3.js": "^1.98.4",
+    "dotenv": "^17.2.3"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^25.0.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
