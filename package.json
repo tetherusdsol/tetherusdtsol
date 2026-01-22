@@ -5,8 +5,9 @@
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "ts-node dist/index.js",
-    "build": "tsc"
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js",
+    "dev": "ts-node index.ts"
   },
   "keywords": [
     "solana",
@@ -18,6 +19,7 @@
   "author": "tetherusdtsol@gmail.com",
   "license": "MIT",
   "dependencies": {
+    "@coral-xyz/anchor": "^0.32.1",
     "@irys/sdk": "^0.2.11",
     "@metaplex-foundation/js": "^0.20.1",
     "@metaplex-foundation/mpl-token-metadata": "^3.4.0",
@@ -25,9 +27,12 @@
     "@metaplex-foundation/umi-bundle-defaults": "^1.4.1",
     "@solana/spl-token": "^0.4.14",
     "@solana/web3.js": "^1.98.4",
+    "bs58": "^6.0.0",
     "dotenv": "^17.2.3"
   },
   "devDependencies": {
+    "@types/bn.js": "^5.2.0",
+    "@types/bs58": "^4.0.4",
     "@types/fs-extra": "^11.0.4",
     "@types/node": "^25.0.9",
     "ts-node": "^10.9.2",
